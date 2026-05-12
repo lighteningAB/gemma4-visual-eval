@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Gemma 4 E4B — Widget Art Eval</title>
+<style>
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+       margin: 0; padding: 24px; background: #fafafa; color: #111; }
+h1 { margin: 0 0 4px; font-size: 22px; }
+.sub { color: #666; margin-bottom: 20px; font-size: 13px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ddd; padding: 8px; vertical-align: top;
+         background: #fff; }
+th.fmthead { background: #f0f0f0; font-size: 13px; text-transform: uppercase;
+             letter-spacing: 0.5px; }
+th.rowhead { background: #f7f7f7; text-align: left; min-width: 180px; max-width: 220px; }
+.pid { font-family: ui-monospace, "SF Mono", monospace; font-size: 11px;
+       color: #888; }
+.target { font-size: 14px; margin-top: 4px; }
+.cell { min-width: 260px; }
+.meta { font-family: ui-monospace, "SF Mono", monospace; font-size: 11px;
+        color: #888; margin-bottom: 6px; }
+.svg-frame { width: 220px; height: 220px; border: 1px dashed #ccc;
+             background: #fff; }
+pre.art { font-family: ui-monospace, "SF Mono", "Menlo", monospace;
+          font-size: 13px; line-height: 1.1; background: #fff; color: #111;
+          padding: 8px; margin: 0; white-space: pre; overflow-x: auto;
+          border: 1px solid #eee; }
+pre.raw { font-family: ui-monospace, monospace; font-size: 10px;
+          color: #555; background: #f5f5f5; padding: 6px; margin: 4px 0 0;
+          max-height: 160px; overflow: auto; white-space: pre-wrap; }
+details { margin-top: 6px; font-size: 11px; color: #666; }
+.warn { color: #b15a00; font-size: 12px; margin-bottom: 4px; }
+.error { color: #b00020; font-size: 12px; white-space: pre-wrap;
+         font-family: ui-monospace, monospace; }
+.empty { color: #aaa; font-style: italic; font-size: 12px; }
+@media (prefers-color-scheme: dark) {
+  body { background: #111; color: #eee; }
+  th, td { border-color: #333; background: #1a1a1a; }
+  th.fmthead { background: #222; }
+  th.rowhead { background: #181818; }
+  .pid, .meta { color: #888; }
+  pre.art { background: #0f0f0f; color: #eee; border-color: #2a2a2a; }
+  pre.raw { background: #1a1a1a; color: #aaa; }
+  .svg-frame { background: #fff; }
+}
+</style>
+</head>
+<body>
+<h1>Gemma 4 E4B — Widget Art Eval</h1>
+<div class="sub">model: <code>google/gemma-4-E4B-it</code> · 15 prompts × 3 formats</div>
+<table>
+<thead><tr><th class='rowhead fmthead'>prompt</th><th class='fmthead'>svg</th><th class='fmthead'>ascii</th><th class='fmthead'>braille</th></tr></thead>
+<tbody>
+<tr><th class="rowhead"><div class="pid">01_rusty_sword</div><div class="target">a rusty iron sword</div></th><td><div class="cell"><div class="meta">448 chars · ttft 1.05s · total 22.88s</div><iframe class="svg-frame" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;body style=&#x27;margin:0;display:flex;align-items:center;justify-content:center;height:100vh;background:#fff&#x27;&gt;&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;rect x=&quot;20&quot; y=&quot;20&quot; width=&quot;60&quot; height=&quot;5&quot; fill=&quot;#808080&quot;/&gt;&lt;path d=&quot;M 20 25 L 80 25 M 20 25 L 80 30 M 20 30 L 80 30 M 20 30 L 80 35 M 20 35 L 80 35 M 20 35 L 80 40 M 20 40 L 80 40&quot; stroke=&quot;#A9A9A9&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot;/&gt;&lt;polygon points=&quot;10,45 20,55 30,45&quot; fill=&quot;#A9A9A9&quot;/&gt;&lt;polygon points=&quot;70,45 80,55 90,45&quot; fill=&quot;#A9A9A9&quot;/&gt;&lt;path d=&quot;M 45 55 L 55 55&quot; stroke=&quot;#696969&quot; stroke-width=&quot;3&quot; stroke-linecap=&quot;round&quot;/&gt;&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;" sandbox></iframe><details><summary>raw</summary><pre class="raw">&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;rect x=&quot;20&quot; y=&quot;20&quot; width=&quot;60&quot; height=&quot;5&quot; fill=&quot;#808080&quot;/&gt;&lt;path d=&quot;M 20 25 L 80 25 M 20 25 L 80 30 M 20 30 L 80 30 M 20 30 L 80 35 M 20 35 L 80 35 M 20 35 L 80 40 M 20 40 L 80 40&quot; stroke=&quot;#A9A9A9&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot;/&gt;&lt;polygon points=&quot;10,45 20,55 30,45&quot; fill=&quot;#A9A9A9&quot;/&gt;&lt;polygon points=&quot;70,45 80,55 90,45&quot; fill=&quot;#A9A9A9&quot;/&gt;&lt;path d=&quot;M 45 55 L 55 55&quot; stroke=&quot;#696969&quot; stroke-width=&quot;3&quot; stroke-linecap=&quot;round&quot;/&gt;&lt;/svg&gt;</pre></details></div></td><td><div class="cell"><div class="meta">50 chars · ttft 0.09s · total 2.28s</div><pre class="art">  /\
+ /__\
+| [] |
+ \__/
+ /-----\
+| RUST |
+ \-----/</pre></div></td><td><div class="cell"><div class="meta">24 chars · ttft 0.94s · total 4.68s</div><pre class="art">⠗⠁⠎⠑
+⠗⠁⠎⠑
+⠗⠑⠗⠎
+⠗⠑⠗⠎
+⠗⠑⠗⠎</pre></div></td></tr>
+<tr><th class="rowhead"><div class="pid">02_health_potion</div><div class="target">a small health potion flask</div></th><td><div class="cell"><div class="meta">315 chars · ttft 0.29s · total 17.13s</div><iframe class="svg-frame" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;body style=&#x27;margin:0;display:flex;align-items:center;justify-content:center;height:100vh;background:#fff&#x27;&gt;&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;path d=&quot;M 30 50 C 20 30, 30 10, 50 10 C 70 10, 80 30, 70 50 L 70 85 C 70 95, 60 100, 50 100 C 40 100, 30 95, 30 85 Z&quot; fill=&quot;#C00000&quot;/&gt;&lt;rect x=&quot;35&quot; y=&quot;25&quot; width=&quot;30&quot; height=&quot;45&quot; rx=&quot;5&quot; fill=&quot;#FFFFFF&quot; stroke=&quot;#333333&quot; stroke-width=&quot;2&quot;/&gt;&lt;circle cx=&quot;50&quot; cy=&quot;45&quot; r=&quot;12&quot; fill=&quot;#FF6600&quot;/&gt;&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;" sandbox></iframe><details><summary>raw</summary><pre class="raw">&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;path d=&quot;M 30 50 C 20 30, 30 10, 50 10 C 70 10, 80 30, 70 50 L 70 85 C 70 95, 60 100, 50 100 C 40 100, 30 95, 30 85 Z&quot; fill=&quot;#C00000&quot;/&gt;&lt;rect x=&quot;35&quot; y=&quot;25&quot; width=&quot;30&quot; height=&quot;45&quot; rx=&quot;5&quot; fill=&quot;#FFFFFF&quot; stroke=&quot;#333333&quot; stroke-width=&quot;2&quot;/&gt;&lt;circle cx=&quot;50&quot; cy=&quot;45&quot; r=&quot;12&quot; fill=&quot;#FF6600&quot;/&gt;&lt;/svg&gt;</pre></details></div></td><td><div class="cell"><div class="meta">42 chars · ttft 0.12s · total 2.35s</div><pre class="art">  _.-.
+ / o o \
+|   ^   |
+ \  -  /
+  `---&#x27;</pre></div></td><td><div class="cell"><div class="meta">24 chars · ttft 1.18s · total 5.78s</div><pre class="art">⠁⠖⠁⠙
+⠗⠁⠙⠁
+⠙⠁⠗⠁
+⠁⠙⠁⠗
+⠗⠁⠙⠁</pre></div></td></tr>
+<tr><th class="rowhead"><div class="pid">03_locked_door</div><div class="target">a locked wooden door</div></th><td><div class="cell"><div class="meta">382 chars · ttft 0.27s · total 16.71s</div><iframe class="svg-frame" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;body style=&#x27;margin:0;display:flex;align-items:center;justify-content:center;height:100vh;background:#fff&#x27;&gt;&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;rect x=&quot;10&quot; y=&quot;10&quot; width=&quot;80&quot; height=&quot;80&quot; rx=&quot;5&quot; fill=&quot;#8B4513&quot;/&gt;&lt;rect x=&quot;15&quot; y=&quot;15&quot; width=&quot;70&quot; height=&quot;70&quot; fill=&quot;#A0522D&quot;/&gt;&lt;rect x=&quot;45&quot; y=&quot;25&quot; width=&quot;10&quot; height=&quot;50&quot; fill=&quot;#5C4033&quot;/&gt;&lt;rect x=&quot;45&quot; y=&quot;25&quot; width=&quot;10&quot; height=&quot;50&quot; fill=&quot;#5C4033&quot;/&gt;&lt;circle cx=&quot;50&quot; cy=&quot;40&quot; r=&quot;4&quot; fill=&quot;#333&quot;/&gt;&lt;rect x=&quot;43&quot; y=&quot;40&quot; width=&quot;14&quot; height=&quot;10&quot; fill=&quot;#333&quot; rx=&quot;1&quot;/&gt;&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;" sandbox></iframe><details><summary>raw</summary><pre class="raw">&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;rect x=&quot;10&quot; y=&quot;10&quot; width=&quot;80&quot; height=&quot;80&quot; rx=&quot;5&quot; fill=&quot;#8B4513&quot;/&gt;&lt;rect x=&quot;15&quot; y=&quot;15&quot; width=&quot;70&quot; height=&quot;70&quot; fill=&quot;#A0522D&quot;/&gt;&lt;rect x=&quot;45&quot; y=&quot;25&quot; width=&quot;10&quot; height=&quot;50&quot; fill=&quot;#5C4033&quot;/&gt;&lt;rect x=&quot;45&quot; y=&quot;25&quot; width=&quot;10&quot; height=&quot;50&quot; fill=&quot;#5C4033&quot;/&gt;&lt;circle cx=&quot;50&quot; cy=&quot;40&quot; r=&quot;4&quot; fill=&quot;#333&quot;/&gt;&lt;rect x=&quot;43&quot; y=&quot;40&quot; width=&quot;14&quot; height=&quot;10&quot; fill=&quot;#333&quot; rx=&quot;1&quot;/&gt;&lt;/svg&gt;</pre></details></div></td><td><div class="cell"><div class="meta">56 chars · ttft 0.11s · total 2.27s</div><pre class="art"> /-------\
+|  O   O  |
+|=========|
+| [----]  |
+&#x27;-------&#x27;</pre></div></td><td><div class="cell"><div class="meta">11 chars · ttft 0.68s · total 2.29s</div><pre class="art">⠙⠑⠇ ⠕⠕⠇ ⠙⠕⠇</pre></div></td></tr>
+<tr><th class="rowhead"><div class="pid">04_goblin_skull</div><div class="target">a goblin skull</div></th><td><div class="cell"><div class="meta">334 chars · ttft 0.25s · total 16.85s</div><iframe class="svg-frame" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;body style=&#x27;margin:0;display:flex;align-items:center;justify-content:center;height:100vh;background:#fff&#x27;&gt;&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;path d=&quot;M50 10 C30 20, 20 50, 30 70 C40 90, 60 90, 70 70 C80 50, 70 20, 50 10 Z&quot; fill=&quot;#8B4513&quot;/&gt;&lt;circle cx=&quot;50&quot; cy=&quot;45&quot; r=&quot;10&quot; fill=&quot;#000000&quot;/&gt;&lt;path d=&quot;M40 35 Q50 30, 60 35&quot; stroke=&quot;#000000&quot; stroke-width=&quot;3&quot; fill=&quot;none&quot;/&gt;&lt;path d=&quot;M40 55 Q50 60, 60 55&quot; stroke=&quot;#000000&quot; stroke-width=&quot;3&quot; fill=&quot;none&quot;/&gt;&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;" sandbox></iframe><details><summary>raw</summary><pre class="raw">&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;path d=&quot;M50 10 C30 20, 20 50, 30 70 C40 90, 60 90, 70 70 C80 50, 70 20, 50 10 Z&quot; fill=&quot;#8B4513&quot;/&gt;&lt;circle cx=&quot;50&quot; cy=&quot;45&quot; r=&quot;10&quot; fill=&quot;#000000&quot;/&gt;&lt;path d=&quot;M40 35 Q50 30, 60 35&quot; stroke=&quot;#000000&quot; stroke-width=&quot;3&quot; fill=&quot;none&quot;/&gt;&lt;path d=&quot;M40 55 Q50 60, 60 55&quot; stroke=&quot;#000000&quot; stroke-width=&quot;3&quot; fill=&quot;none&quot;/&gt;&lt;/svg&gt;</pre></details></div></td><td><div class="cell"><div class="meta">37 chars · ttft 0.12s · total 1.88s</div><pre class="art">  .--.
+ /    \
+|  O  |
+ \ -- /
+  `--&#x27;</pre></div></td><td><div class="cell"><div class="meta">53 chars · ttft 2.82s · total 8.78s</div><pre class="art">⠁⠀⠃⠗⠀⠙⠀⠗⠀⠁⠀⠗⠀⠙⠀⠗
+⠀⠙⠀⠗⠀⠁⠀⠗⠀⠙⠀⠗⠀⠁
+⠀⠗⠀⠙⠀⠗⠀⠁⠀⠗
+⠀⠗⠀⠙⠀⠗⠀⠁⠀⠗</pre></div></td></tr>
+<tr><th class="rowhead"><div class="pid">05_treasure_chest</div><div class="target">a treasure chest with gold coins</div></th><td><div class="cell"><div class="meta">495 chars · ttft 0.29s · total 21.76s</div><iframe class="svg-frame" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;body style=&#x27;margin:0;display:flex;align-items:center;justify-content:center;height:100vh;background:#fff&#x27;&gt;&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;rect x=&quot;20&quot; y=&quot;30&quot; width=&quot;60&quot; height=&quot;40&quot; rx=&quot;5&quot; fill=&quot;#8B4513&quot;/&gt;&lt;rect x=&quot;25&quot; y=&quot;35&quot; width=&quot;50&quot; height=&quot;30&quot; fill=&quot;#A0522D&quot;/&gt;&lt;rect x=&quot;22&quot; y=&quot;32&quot; width=&quot;56&quot; height=&quot;36&quot; rx=&quot;3&quot; fill=&quot;#FFD700&quot; opacity=&quot;0.3&quot;/&gt;&lt;path d=&quot;M30 60 L70 60 M30 70 L70 70&quot; stroke=&quot;#FFD700&quot; stroke-width=&quot;3&quot;/&gt;&lt;circle cx=&quot;35&quot; cy=&quot;55&quot; r=&quot;5&quot; fill=&quot;#FFD700&quot;/&gt;&lt;circle cx=&quot;45&quot; cy=&quot;50&quot; r=&quot;6&quot; fill=&quot;#FFD700&quot;/&gt;&lt;circle cx=&quot;55&quot; cy=&quot;55&quot; r=&quot;5&quot; fill=&quot;#FFD700&quot;/&gt;&lt;circle cx=&quot;65&quot; cy=&quot;60&quot; r=&quot;5&quot; fill=&quot;#FFD700&quot;/&gt;&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;" sandbox></iframe><details><summary>raw</summary><pre class="raw">&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;rect x=&quot;20&quot; y=&quot;30&quot; width=&quot;60&quot; height=&quot;40&quot; rx=&quot;5&quot; fill=&quot;#8B4513&quot;/&gt;&lt;rect x=&quot;25&quot; y=&quot;35&quot; width=&quot;50&quot; height=&quot;30&quot; fill=&quot;#A0522D&quot;/&gt;&lt;rect x=&quot;22&quot; y=&quot;32&quot; width=&quot;56&quot; height=&quot;36&quot; rx=&quot;3&quot; fill=&quot;#FFD700&quot; opacity=&quot;0.3&quot;/&gt;&lt;path d=&quot;M30 60 L70 60 M30 70 L70 70&quot; stroke=&quot;#FFD700&quot; stroke-width=&quot;3&quot;/&gt;&lt;circle cx=&quot;35&quot; cy=&quot;55&quot; r=&quot;5&quot; fill=&quot;#FFD700&quot;/&gt;&lt;circle cx=&quot;45&quot; cy=&quot;50&quot; r=&quot;6&quot; fill=&quot;#FFD700&quot;/&gt;&lt;circle cx=&quot;55&quot; cy=&quot;55&quot; r=&quot;5&quot; fill=&quot;#FFD700&quot;/&gt;&lt;circle cx=&quot;65&quot; cy=&quot;60&quot; r=&quot;5&quot; fill=&quot;#FFD700&quot;/&gt;&lt;/svg&gt;</pre></details></div></td><td><div class="cell"><div class="meta">88 chars · ttft 0.11s · total 3.34s</div><pre class="art">     _______
+    /       \
+   |  [===]  |
+   |_________|
+    \  $  /
+     \ $ /
+      \$</pre></div></td><td><div class="cell"><div class="meta">48 chars · ttft 1.69s · total 11.89s</div><pre class="art">⠼⠁⠃⠇⠁⠗
+⠼⠁⠃⠇⠁⠗
+⠶⠁⠃⠇⠁⠗
+⠶⠁⠃⠇⠁⠗
+⠶⠁⠃⠇⠁⠗
+⠶⠁⠃⠇⠁⠗
+⠶⠁⠃⠇⠁⠗</pre></div></td></tr>
+<tr><th class="rowhead"><div class="pid">06_wooden_shield</div><div class="target">a wooden shield with iron rim</div></th><td><div class="cell"><div class="meta">522 chars · ttft 0.28s · total 23.58s</div><iframe class="svg-frame" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;body style=&#x27;margin:0;display:flex;align-items:center;justify-content:center;height:100vh;background:#fff&#x27;&gt;&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;defs&gt;&lt;linearGradient id=&quot;woodGrad&quot; x1=&quot;0%&quot; y1=&quot;0%&quot; x2=&quot;0%&quot; y2=&quot;100%&quot;&gt;&lt;stop offset=&quot;0%&quot; style=&quot;stop-color:#A0522D;stop-opacity:1&quot; /&gt;&lt;stop offset=&quot;100%&quot; style=&quot;stop-color:#8B4513;stop-opacity:1&quot; /&gt;&lt;/linearGradient&gt;&lt;/defs&gt;&lt;path d=&quot;M 10 10 C 0 25, 0 75, 10 90 C 20 100, 80 100, 90 90 C 100 75, 100 25, 90 10 C 80 0, 20 0, 10 10 Z&quot; fill=&quot;url(#woodGrad)&quot; stroke=&quot;#5C4033&quot; stroke-width=&quot;3&quot;/&gt;&lt;rect x=&quot;5&quot; y=&quot;5&quot; width=&quot;90&quot; height=&quot;90&quot; rx=&quot;15&quot; ry=&quot;15&quot; stroke=&quot;#696969&quot; stroke-width=&quot;5&quot; fill=&quot;none&quot;/&gt;&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;" sandbox></iframe><details><summary>raw</summary><pre class="raw">&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;defs&gt;&lt;linearGradient id=&quot;woodGrad&quot; x1=&quot;0%&quot; y1=&quot;0%&quot; x2=&quot;0%&quot; y2=&quot;100%&quot;&gt;&lt;stop offset=&quot;0%&quot; style=&quot;stop-color:#A0522D;stop-opacity:1&quot; /&gt;&lt;stop offset=&quot;100%&quot; style=&quot;stop-color:#8B4513;stop-opacity:1&quot; /&gt;&lt;/linearGradient&gt;&lt;/defs&gt;&lt;path d=&quot;M 10 10 C 0 25, 0 75, 10 90 C 20 100, 80 100, 90 90 C 100 75, 100 25, 90 10 C 80 0, 20 0, 10 10 Z&quot; fill=&quot;url(#woodGrad)&quot; stroke=&quot;#5C4033&quot; stroke-width=&quot;3&quot;/&gt;&lt;rect x=&quot;5&quot; y=&quot;5&quot; width=&quot;90&quot; height=&quot;90&quot; rx=&quot;15&quot; ry=&quot;15&quot; stroke=&quot;#696969&quot; stroke-width=&quot;5&quot; fill=&quot;none&quot;/&gt;&lt;/svg&gt;</pre></details></div></td><td><div class="cell"><div class="meta">53 chars · ttft 0.10s · total 1.92s</div><pre class="art">  ______
+ /      \
+|  [] []  |
+|---------|
+ \______/
+</pre></div></td><td><div class="cell"><div class="meta">47 chars · ttft 1.17s · total 9.47s</div><pre class="art">⠃⠇⠑⠙⠇
+⠃⠇⠑⠙⠇
+⠃⠇⠑⠙⠇
+⠃⠇⠑⠙⠇
+⠃⠇⠑⠙⠇
+⠃⠇⠑⠙⠇
+⠃⠇⠑⠙⠇
+⠃⠇⠑⠙⠇</pre></div></td></tr>
+<tr><th class="rowhead"><div class="pid">07_magic_scroll</div><div class="target">a glowing magic scroll</div></th><td><div class="cell"><div class="meta">492 chars · ttft 0.31s · total 20.21s</div><iframe class="svg-frame" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;body style=&#x27;margin:0;display:flex;align-items:center;justify-content:center;height:100vh;background:#fff&#x27;&gt;&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;path d=&quot;M50 10 C 20 20, 10 50, 20 80 L 80 80 C 90 50, 80 20, 50 10 Z&quot; fill=&quot;#3a005c&quot; stroke=&quot;#ffcc00&quot; stroke-width=&quot;3&quot;/&gt;&lt;circle cx=&quot;50&quot; cy=&quot;50&quot; r=&quot;15&quot; fill=&quot;url(#glow)&quot; stroke=&quot;#ffaa00&quot; stroke-width=&quot;2&quot;/&gt;&lt;defs&gt;&lt;radialGradient id=&quot;glow&quot;&gt;&lt;stop offset=&quot;0%&quot; style=&quot;stop-color:rgba(255,204,0,1);stop-opacity:1&quot; /&gt;&lt;stop offset=&quot;100%&quot; style=&quot;stop-color:rgba(255,165,0,0.5);stop-opacity:0&quot; /&gt;&lt;/radialGradient&gt;&lt;/defs&gt;&lt;circle cx=&quot;50&quot; cy=&quot;50&quot; r=&quot;12&quot; fill=&quot;url(#glow)&quot;/&gt;&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;" sandbox></iframe><details><summary>raw</summary><pre class="raw">&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;path d=&quot;M50 10 C 20 20, 10 50, 20 80 L 80 80 C 90 50, 80 20, 50 10 Z&quot; fill=&quot;#3a005c&quot; stroke=&quot;#ffcc00&quot; stroke-width=&quot;3&quot;/&gt;&lt;circle cx=&quot;50&quot; cy=&quot;50&quot; r=&quot;15&quot; fill=&quot;url(#glow)&quot; stroke=&quot;#ffaa00&quot; stroke-width=&quot;2&quot;/&gt;&lt;defs&gt;&lt;radialGradient id=&quot;glow&quot;&gt;&lt;stop offset=&quot;0%&quot; style=&quot;stop-color:rgba(255,204,0,1);stop-opacity:1&quot; /&gt;&lt;stop offset=&quot;100%&quot; style=&quot;stop-color:rgba(255,165,0,0.5);stop-opacity:0&quot; /&gt;&lt;/radialGradient&gt;&lt;/defs&gt;&lt;circle cx=&quot;50&quot; cy=&quot;50&quot; r=&quot;12&quot; fill=&quot;url(#glow)&quot;/&gt;&lt;/svg&gt;</pre></details></div></td><td><div class="cell"><div class="meta">43 chars · ttft 0.09s · total 2.23s</div><pre class="art">  / \
+ / ^ \
+ \ ~ /
+  \ /
+  * *
+ / | \
+ \ /</pre></div></td><td><div class="cell"><div class="meta">85 chars · ttft 2.82s · total 8.60s</div><pre class="art">⠁⠀⠙⠑⠀�����⠊⠝⠀�����⠑⠀�������
+⠀⠙⠑⠀�����⠑⠀�������
+⠁⠀⠙⠑⠀�����⠊⠝⠀�����⠑
+⠀⠙⠑⠀�����⠑⠀�������</pre></div></td></tr>
+<tr><th class="rowhead"><div class="pid">08_silver_dagger</div><div class="target">a silver dagger</div></th><td><div class="cell"><div class="meta">151 chars · ttft 0.27s · total 6.76s</div><iframe class="svg-frame" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;body style=&#x27;margin:0;display:flex;align-items:center;justify-content:center;height:100vh;background:#fff&#x27;&gt;&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;path d=&quot;M 50 20 L 75 40 L 50 60 L 25 40 Z&quot; fill=&quot;#AAAAAA&quot;/&gt;&lt;rect x=&quot;48&quot; y=&quot;30&quot; width=&quot;4&quot; height=&quot;30&quot; fill=&quot;#CCCCCC&quot;/&gt;&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;" sandbox></iframe><details><summary>raw</summary><pre class="raw">&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;path d=&quot;M 50 20 L 75 40 L 50 60 L 25 40 Z&quot; fill=&quot;#AAAAAA&quot;/&gt;&lt;rect x=&quot;48&quot; y=&quot;30&quot; width=&quot;4&quot; height=&quot;30&quot; fill=&quot;#CCCCCC&quot;/&gt;&lt;/svg&gt;</pre></details></div></td><td><div class="cell"><div class="meta">35 chars · ttft 0.09s · total 1.96s</div><pre class="art">  /\
+ /  \
+|----|
+ \__/
+ /|
+| |
+ \_</pre></div></td><td><div class="cell"><div class="meta">13 chars · ttft 0.73s · total 2.59s</div><pre class="art">⠁⠙⠑
+⠎⠑⠃⠗
+⠎⠑⠃⠗</pre></div></td></tr>
+<tr><th class="rowhead"><div class="pid">09_stone_tower</div><div class="target">a stone tower on a hill</div></th><td><div class="cell"><div class="meta">355 chars · ttft 0.25s · total 17.34s</div><iframe class="svg-frame" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;body style=&#x27;margin:0;display:flex;align-items:center;justify-content:center;height:100vh;background:#fff&#x27;&gt;&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;rect x=&quot;10&quot; y=&quot;60&quot; width=&quot;80&quot; height=&quot;30&quot; fill=&quot;#8B4513&quot;/&gt;&lt;path d=&quot;M 15 60 L 25 40 L 35 60 L 45 40 L 55 60 L 65 40 L 75 60 L 85 40 L 90 60 Z&quot; fill=&quot;#A9A9A9&quot;/&gt;&lt;rect x=&quot;40&quot; y=&quot;20&quot; width=&quot;20&quot; height=&quot;40&quot; fill=&quot;#A9A9A9&quot;/&gt;&lt;rect x=&quot;35&quot; y=&quot;15&quot; width=&quot;30&quot; height=&quot;5&quot; fill=&quot;#555555&quot;/&gt;&lt;circle cx=&quot;50&quot; cy=&quot;15&quot; r=&quot;5&quot; fill=&quot;#333333&quot;/&gt;&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;" sandbox></iframe><details><summary>raw</summary><pre class="raw">&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;rect x=&quot;10&quot; y=&quot;60&quot; width=&quot;80&quot; height=&quot;30&quot; fill=&quot;#8B4513&quot;/&gt;&lt;path d=&quot;M 15 60 L 25 40 L 35 60 L 45 40 L 55 60 L 65 40 L 75 60 L 85 40 L 90 60 Z&quot; fill=&quot;#A9A9A9&quot;/&gt;&lt;rect x=&quot;40&quot; y=&quot;20&quot; width=&quot;20&quot; height=&quot;40&quot; fill=&quot;#A9A9A9&quot;/&gt;&lt;rect x=&quot;35&quot; y=&quot;15&quot; width=&quot;30&quot; height=&quot;5&quot; fill=&quot;#555555&quot;/&gt;&lt;circle cx=&quot;50&quot; cy=&quot;15&quot; r=&quot;5&quot; fill=&quot;#333333&quot;/&gt;&lt;/svg&gt;</pre></details></div></td><td><div class="cell"><div class="meta">106 chars · ttft 0.12s · total 3.96s</div><pre class="art">      /\
+     /  \
+    |----|
+    | [] |
+    |____|
+     /  \
+    | [] |
+    |____|
+    /____\
+   /      \</pre></div></td><td><div class="cell"><div class="meta">20 chars · ttft 0.68s · total 3.86s</div><pre class="art">⠃⠑⠝ ⠞⠗⠥⠑⠝
+⠙⠑⠓⠇ ⠓⠗⠥⠑⠝</pre></div></td></tr>
+<tr><th class="rowhead"><div class="pid">10_dragon_head</div><div class="target">a red dragon head</div></th><td><div class="cell"><div class="meta">320 chars · ttft 0.28s · total 16.60s</div><iframe class="svg-frame" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;body style=&#x27;margin:0;display:flex;align-items:center;justify-content:center;height:100vh;background:#fff&#x27;&gt;&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;path d=&quot;M50 10 C30 0, 10 20, 15 40 C20 60, 40 80, 50 90 C60 80, 80 60, 85 40 C90 20, 70 0, 50 10 Z&quot; fill=&quot;#CC0000&quot;/&gt;&lt;circle cx=&quot;35&quot; cy=&quot;35&quot; r=&quot;8&quot; fill=&quot;#FFD700&quot;/&gt;&lt;circle cx=&quot;65&quot; cy=&quot;35&quot; r=&quot;8&quot; fill=&quot;#FFD700&quot;/&gt;&lt;path d=&quot;M40 45 Q50 55, 60 45&quot; stroke=&quot;#FFD700&quot; stroke-width=&quot;3&quot; fill=&quot;none&quot;/&gt;&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;" sandbox></iframe><details><summary>raw</summary><pre class="raw">&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;path d=&quot;M50 10 C30 0, 10 20, 15 40 C20 60, 40 80, 50 90 C60 80, 80 60, 85 40 C90 20, 70 0, 50 10 Z&quot; fill=&quot;#CC0000&quot;/&gt;&lt;circle cx=&quot;35&quot; cy=&quot;35&quot; r=&quot;8&quot; fill=&quot;#FFD700&quot;/&gt;&lt;circle cx=&quot;65&quot; cy=&quot;35&quot; r=&quot;8&quot; fill=&quot;#FFD700&quot;/&gt;&lt;path d=&quot;M40 45 Q50 55, 60 45&quot; stroke=&quot;#FFD700&quot; stroke-width=&quot;3&quot; fill=&quot;none&quot;/&gt;&lt;/svg&gt;</pre></details></div></td><td><div class="cell"><div class="meta">90 chars · ttft 0.10s · total 3.84s</div><pre class="art">      /\\
+     /  \\
+    /____\\
+   /  (o)  \\
+  /  &gt;---&lt;  \\
+ /  /  \\  \\
+/_/______\\_\\</pre></div></td><td><div class="cell"><div class="meta">34 chars · ttft 1.56s · total 7.82s</div><pre class="art">⠁⠗⠁⠗⠁⠗
+⠗⠁⠗⠁⠗⠁
+⠁⠗⠁⠗⠁⠗
+⠗⠁⠗⠁⠗⠁
+⠁⠗⠁⠗⠁⠗</pre></div></td></tr>
+<tr><th class="rowhead"><div class="pid">11_wizard_staff</div><div class="target">a wizard&#x27;s staff with a crystal tip</div></th><td><div class="cell"><div class="meta">300 chars · ttft 0.28s · total 12.52s</div><iframe class="svg-frame" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;body style=&#x27;margin:0;display:flex;align-items:center;justify-content:center;height:100vh;background:#fff&#x27;&gt;&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;rect x=&quot;45&quot; y=&quot;5&quot; width=&quot;10&quot; height=&quot;90&quot; fill=&quot;#8B4513&quot;/&gt;&lt;rect x=&quot;35&quot; y=&quot;10&quot; width=&quot;30&quot; height=&quot;80&quot; fill=&quot;#A0522D&quot;/&gt;&lt;polygon points=&quot;50,10 60,30 40,30&quot; fill=&quot;#ADD8E6&quot;/&gt;&lt;circle cx=&quot;50&quot; cy=&quot;10&quot; r=&quot;4&quot; fill=&quot;#FFFFFF&quot;/&gt;&lt;polygon points=&quot;50,10 60,30 40,30&quot; fill=&quot;#00FFFF&quot;/&gt;&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;" sandbox></iframe><details><summary>raw</summary><pre class="raw">&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;rect x=&quot;45&quot; y=&quot;5&quot; width=&quot;10&quot; height=&quot;90&quot; fill=&quot;#8B4513&quot;/&gt;&lt;rect x=&quot;35&quot; y=&quot;10&quot; width=&quot;30&quot; height=&quot;80&quot; fill=&quot;#A0522D&quot;/&gt;&lt;polygon points=&quot;50,10 60,30 40,30&quot; fill=&quot;#ADD8E6&quot;/&gt;&lt;circle cx=&quot;50&quot; cy=&quot;10&quot; r=&quot;4&quot; fill=&quot;#FFFFFF&quot;/&gt;&lt;polygon points=&quot;50,10 60,30 40,30&quot; fill=&quot;#00FFFF&quot;/&gt;&lt;/svg&gt;</pre></details></div></td><td><div class="cell"><div class="meta">95 chars · ttft 0.12s · total 3.83s</div><pre class="art">      / \
+     | O |
+     \ /
+     | |
+    /   \
+   |-----|
+   |-----|
+  / \   / \
+ /   \ /   \</pre></div></td><td><div class="cell"><div class="meta">71 chars · ttft 1.82s · total 14.97s</div><pre class="art">⠃⠁⠝⠓⠁⠝⠓
+⠃⠑⠇⠇⠁⠝⠓
+⠃⠑⠇⠇⠁⠝⠓
+⠃⠑⠇⠇⠁⠝⠓
+⠃⠑⠇⠇⠁⠝⠓
+⠃⠑⠇⠇⠁⠝⠓
+⠀⠁⠙⠇⠁⠝⠓
+⠀⠁⠙⠇⠁⠝⠓
+⠀⠁⠙⠇⠁⠝⠓</pre></div></td></tr>
+<tr><th class="rowhead"><div class="pid">12_arrow_quiver</div><div class="target">a leather quiver full of arrows</div></th><td><div class="cell"><div class="meta">641 chars · ttft 0.29s · total 27.54s</div><iframe class="svg-frame" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;body style=&#x27;margin:0;display:flex;align-items:center;justify-content:center;height:100vh;background:#fff&#x27;&gt;&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;rect x=&quot;10&quot; y=&quot;10&quot; width=&quot;80&quot; height=&quot;80&quot; rx=&quot;10&quot; fill=&quot;#8B4513&quot;/&gt;&lt;rect x=&quot;15&quot; y=&quot;15&quot; width=&quot;70&quot; height=&quot;70&quot; rx=&quot;5&quot; fill=&quot;#A0522D&quot; stroke=&quot;#654321&quot; stroke-width=&quot;2&quot;/&gt;&lt;rect x=&quot;30&quot; y=&quot;20&quot; width=&quot;10&quot; height=&quot;70&quot; fill=&quot;#444444&quot; transform=&quot;rotate(-15 30 20)&quot;/&gt;&lt;rect x=&quot;45&quot; y=&quot;15&quot; width=&quot;10&quot; height=&quot;75&quot; fill=&quot;#444444&quot; transform=&quot;rotate(5 45 15)&quot;/&gt;&lt;rect x=&quot;60&quot; y=&quot;25&quot; width=&quot;10&quot; height=&quot;65&quot; fill=&quot;#444444&quot; transform=&quot;rotate(20 60 25)&quot;/&gt;&lt;rect x=&quot;15&quot; y=&quot;35&quot; width=&quot;10&quot; height=&quot;60&quot; fill=&quot;#444444&quot; transform=&quot;rotate(-10 15 35)&quot;/&gt;&lt;rect x=&quot;50&quot; y=&quot;30&quot; width=&quot;10&quot; height=&quot;65&quot; fill=&quot;#444444&quot; transform=&quot;rotate(10 50 30)&quot;/&gt;&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;" sandbox></iframe><details><summary>raw</summary><pre class="raw">&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;rect x=&quot;10&quot; y=&quot;10&quot; width=&quot;80&quot; height=&quot;80&quot; rx=&quot;10&quot; fill=&quot;#8B4513&quot;/&gt;&lt;rect x=&quot;15&quot; y=&quot;15&quot; width=&quot;70&quot; height=&quot;70&quot; rx=&quot;5&quot; fill=&quot;#A0522D&quot; stroke=&quot;#654321&quot; stroke-width=&quot;2&quot;/&gt;&lt;rect x=&quot;30&quot; y=&quot;20&quot; width=&quot;10&quot; height=&quot;70&quot; fill=&quot;#444444&quot; transform=&quot;rotate(-15 30 20)&quot;/&gt;&lt;rect x=&quot;45&quot; y=&quot;15&quot; width=&quot;10&quot; height=&quot;75&quot; fill=&quot;#444444&quot; transform=&quot;rotate(5 45 15)&quot;/&gt;&lt;rect x=&quot;60&quot; y=&quot;25&quot; width=&quot;10&quot; height=&quot;65&quot; fill=&quot;#444444&quot; transform=&quot;rotate(20 60 25)&quot;/&gt;&lt;rect x=&quot;15&quot; y=&quot;35&quot; width=&quot;10&quot; height=&quot;60&quot; fill=&quot;#444444&quot; transform=&quot;rotate(-10 15 35)&quot;/&gt;&lt;rect x=&quot;50&quot; y=&quot;30&quot; width=&quot;10&quot; height=&quot;65&quot; fill=&quot;#444444&quot; transform=&quot;rotate(10 50 30)&quot;/&gt;&lt;/svg&gt;</pre></details></div></td><td><div class="cell"><div class="meta">60 chars · ttft 0.34s · total 3.04s</div><pre class="art">.----.
+| [] |
+| [] |
+| [] |
+| [] |
+&#x27;----&#x27;
+  |
+  |
+ / \
+/   \</pre></div></td><td><div class="cell"><div class="meta">51 chars · ttft 2.64s · total 9.66s</div><pre class="art">⠁⠀⠇⠇⠀⠍⠗⠀⠓⠀⠎⠇⠓
+⠁⠀⠇⠇⠀⠓⠀⠍⠀⠏⠃
+⠁⠀⠇⠇⠀⠏⠀⠗
+⠀⠁⠗⠏⠀⠁⠗⠏
+⠀⠁⠗⠏⠁⠗⠏</pre></div></td></tr>
+<tr><th class="rowhead"><div class="pid">13_knight_helmet</div><div class="target">a knight&#x27;s helmet</div></th><td><div class="cell"><div class="meta">252 chars · ttft 0.26s · total 12.45s</div><iframe class="svg-frame" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;body style=&#x27;margin:0;display:flex;align-items:center;justify-content:center;height:100vh;background:#fff&#x27;&gt;&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;path d=&quot;M50 10 L20 40 L80 40 Z&quot; fill=&quot;#8B4513&quot;/&gt;&lt;path d=&quot;M15 45 Q 50 25, 85 45 L80 55 L20 55 Z&quot; fill=&quot;#A9A9A9&quot;/&gt;&lt;circle cx=&quot;50&quot; cy=&quot;35&quot; r=&quot;15&quot; fill=&quot;#4682B4&quot;/&gt;&lt;rect x=&quot;40&quot; y=&quot;15&quot; width=&quot;20&quot; height=&quot;15&quot; fill=&quot;#696969&quot;/&gt;&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;" sandbox></iframe><details><summary>raw</summary><pre class="raw">&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;path d=&quot;M50 10 L20 40 L80 40 Z&quot; fill=&quot;#8B4513&quot;/&gt;&lt;path d=&quot;M15 45 Q 50 25, 85 45 L80 55 L20 55 Z&quot; fill=&quot;#A9A9A9&quot;/&gt;&lt;circle cx=&quot;50&quot; cy=&quot;35&quot; r=&quot;15&quot; fill=&quot;#4682B4&quot;/&gt;&lt;rect x=&quot;40&quot; y=&quot;15&quot; width=&quot;20&quot; height=&quot;15&quot; fill=&quot;#696969&quot;/&gt;&lt;/svg&gt;</pre></details></div></td><td><div class="cell"><div class="meta">34 chars · ttft 0.11s · total 1.81s</div><pre class="art">  \ /
+ --o--
+ / | \
+|  ^  |
+ \___/</pre></div></td><td><div class="cell"><div class="meta">42 chars · ttft 2.06s · total 9.76s</div><pre class="art">⠶⠁⠙⠓⠅⠕⠁⠶
+⠙⠧⠓⠃⠅⠕⠁⠶
+⠙⠧⠓⠃⠅⠕⠁⠶
+⠧⠓⠃⠅⠕⠁⠶
+⠧⠓⠃⠅⠕⠁⠶</pre></div></td></tr>
+<tr><th class="rowhead"><div class="pid">14_poison_vial</div><div class="target">a green poison vial</div></th><td><div class="cell"><div class="meta">477 chars · ttft 0.29s · total 23.26s</div><iframe class="svg-frame" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;body style=&#x27;margin:0;display:flex;align-items:center;justify-content:center;height:100vh;background:#fff&#x27;&gt;&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;path d=&quot;M50 10 C 30 10, 20 30, 20 50 C 20 70, 30 90, 50 90 C 70 90, 80 70, 80 50 C 80 30, 70 10, 50 10 Z&quot; fill=&quot;#38761d&quot; stroke=&quot;#000000&quot; stroke-width=&quot;2&quot;/&gt;&lt;path d=&quot;M50 25 L 50 75&quot; stroke=&quot;#000000&quot; stroke-width=&quot;3&quot;/&gt;&lt;circle cx=&quot;50&quot; cy=&quot;50&quot; r=&quot;10&quot; fill=&quot;#a93226&quot; opacity=&quot;0.7&quot;/&gt;&lt;path d=&quot;M40 40 L 60 60&quot; stroke=&quot;#000000&quot; stroke-width=&quot;1&quot; stroke-dasharray=&quot;2 2&quot;/&gt;&lt;path d=&quot;M60 40 L 40 60&quot; stroke=&quot;#000000&quot; stroke-width=&quot;1&quot; stroke-dasharray=&quot;2 2&quot;/&gt;&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;" sandbox></iframe><details><summary>raw</summary><pre class="raw">&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;path d=&quot;M50 10 C 30 10, 20 30, 20 50 C 20 70, 30 90, 50 90 C 70 90, 80 70, 80 50 C 80 30, 70 10, 50 10 Z&quot; fill=&quot;#38761d&quot; stroke=&quot;#000000&quot; stroke-width=&quot;2&quot;/&gt;&lt;path d=&quot;M50 25 L 50 75&quot; stroke=&quot;#000000&quot; stroke-width=&quot;3&quot;/&gt;&lt;circle cx=&quot;50&quot; cy=&quot;50&quot; r=&quot;10&quot; fill=&quot;#a93226&quot; opacity=&quot;0.7&quot;/&gt;&lt;path d=&quot;M40 40 L 60 60&quot; stroke=&quot;#000000&quot; stroke-width=&quot;1&quot; stroke-dasharray=&quot;2 2&quot;/&gt;&lt;path d=&quot;M60 40 L 40 60&quot; stroke=&quot;#000000&quot; stroke-width=&quot;1&quot; stroke-dasharray=&quot;2 2&quot;/&gt;&lt;/svg&gt;</pre></details></div></td><td><div class="cell"><div class="meta">69 chars · ttft 0.09s · total 3.46s</div><pre class="art">  ( \_ )
+  /  _ \
+ /  (o)  \
+|  \_/  |
+ \  ---  /
+  `-----&#x27;
+  (Green)</pre></div></td><td><div class="cell"><div class="meta">24 chars · ttft 1.05s · total 5.18s</div><pre class="art">⠼⠗⠁⠇
+⠗⠁⠗⠁
+⠁⠗⠁⠗
+⠗⠁⠗⠁
+⠗⠁⠗⠁</pre></div></td></tr>
+<tr><th class="rowhead"><div class="pid">15_campfire</div><div class="target">a campfire under a starry sky</div></th><td><div class="cell"><div class="meta">781 chars · ttft 0.27s · total 31.42s</div><iframe class="svg-frame" srcdoc="&lt;!doctype html&gt;&lt;html&gt;&lt;body style=&#x27;margin:0;display:flex;align-items:center;justify-content:center;height:100vh;background:#fff&#x27;&gt;&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;defs&gt;&lt;radialGradient id=&quot;fireGradient&quot; cx=&quot;50%&quot; cy=&quot;50%&quot; r=&quot;50%&quot;&gt;&lt;stop offset=&quot;0%&quot; style=&quot;stop-color:rgb(255,165,0);stop-opacity:1&quot; /&gt;&lt;stop offset=&quot;100%&quot; style=&quot;stop-color:rgb(255,69,0);stop-opacity:0.8&quot; /&gt;&lt;/radialGradient&gt;&lt;/defs&gt;&lt;rect width=&quot;100&quot; height=&quot;100&quot; fill=&quot;#000011&quot;/&gt;&lt;circle cx=&quot;50&quot; cy=&quot;80&quot; r=&quot;8&quot; fill=&quot;#4b371c&quot;/&gt;&lt;path d=&quot;M 50 72 L 45 65 L 55 65 Z&quot; fill=&quot;#ff8c00&quot; opacity=&quot;0.9&quot;/&gt;&lt;path d=&quot;M 50 70 L 40 62 L 60 62 Z&quot; fill=&quot;#ff4500&quot; opacity=&quot;0.8&quot;/&gt;&lt;path d=&quot;M 50 68 L 35 58 L 65 58 Z&quot; fill=&quot;#ffd700&quot; opacity=&quot;0.7&quot;/&gt;&lt;circle cx=&quot;20&quot; cy=&quot;20&quot; r=&quot;1.5&quot; fill=&quot;white&quot;/&gt;&lt;circle cx=&quot;80&quot; cy=&quot;35&quot; r=&quot;1&quot; fill=&quot;white&quot;/&gt;&lt;circle cx=&quot;10&quot; cy=&quot;50&quot; r=&quot;1.2&quot; fill=&quot;white&quot;/&gt;&lt;circle cx=&quot;90&quot; cy=&quot;70&quot; r=&quot;1&quot; fill=&quot;white&quot;/&gt;&lt;circle cx=&quot;40&quot; cy=&quot;10&quot; r=&quot;0.8&quot; fill=&quot;white&quot;/&gt;&lt;/svg&gt;&lt;/body&gt;&lt;/html&gt;" sandbox></iframe><details><summary>raw</summary><pre class="raw">&lt;svg viewBox=&quot;0 0 100 100&quot;&gt;&lt;defs&gt;&lt;radialGradient id=&quot;fireGradient&quot; cx=&quot;50%&quot; cy=&quot;50%&quot; r=&quot;50%&quot;&gt;&lt;stop offset=&quot;0%&quot; style=&quot;stop-color:rgb(255,165,0);stop-opacity:1&quot; /&gt;&lt;stop offset=&quot;100%&quot; style=&quot;stop-color:rgb(255,69,0);stop-opacity:0.8&quot; /&gt;&lt;/radialGradient&gt;&lt;/defs&gt;&lt;rect width=&quot;100&quot; height=&quot;100&quot; fill=&quot;#000011&quot;/&gt;&lt;circle cx=&quot;50&quot; cy=&quot;80&quot; r=&quot;8&quot; fill=&quot;#4b371c&quot;/&gt;&lt;path d=&quot;M 50 72 L 45 65 L 55 65 Z&quot; fill=&quot;#ff8c00&quot; opacity=&quot;0.9&quot;/&gt;&lt;path d=&quot;M 50 70 L 40 62 L 60 62 Z&quot; fill=&quot;#ff4500&quot; opacity=&quot;0.8&quot;/&gt;&lt;path d=&quot;M 50 68 L 35 58 L 65 58 Z&quot; fill=&quot;#ffd700&quot; opacity=&quot;0.7&quot;/&gt;&lt;circle cx=&quot;20&quot; cy=&quot;20&quot; r=&quot;1.5&quot; fill=&quot;white&quot;/&gt;&lt;circle cx=&quot;80&quot; cy=&quot;35&quot; r=&quot;1&quot; fill=&quot;white&quot;/&gt;&lt;circle cx=&quot;10&quot; cy=&quot;50&quot; r=&quot;1.2&quot; fill=&quot;white&quot;/&gt;&lt;circle cx=&quot;90&quot; cy=&quot;70&quot; r=&quot;1&quot; fill=&quot;white&quot;/&gt;&lt;circle cx=&quot;40&quot; cy=&quot;10&quot; r=&quot;0.8&quot; fill=&quot;white&quot;/&gt;&lt;/svg&gt;</pre></details></div></td><td><div class="cell"><div class="meta">95 chars · ttft 0.10s · total 3.99s</div><pre class="art">      .
+     /|\
+    / | \
+   -----
+    * * *
+   *  .  *
+  . * * * .
+ . * * * * .
+. * * * * * .</pre></div></td><td><div class="cell"><div class="meta">59 chars · ttft 0.83s · total 12.21s</div><pre class="art">⠁⠁⠁
+⠁⠁⠁
+⠁⠁⠁
+⠁⠁⠁
+⠁⠁⠁
+⠁⠁⠁
+⠁⠁⠁
+⠁⠁⠁
+⠁⠁⠁
+⠁⠁⠁
+⠁⠁⠁
+⠁⠁⠁
+⠁⠁⠁
+⠁⠁⠁
+⠁⠁⠁</pre></div></td></tr>
+</tbody>
+</table>
+</body>
+</html>

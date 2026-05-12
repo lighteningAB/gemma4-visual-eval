@@ -1,0 +1,10 @@
+{
+  "id": "04_goblin_skull",
+  "target": "a goblin skull",
+  "format": "braille",
+  "model_id": "google/gemma-4-E4B-it",
+  "ttft_s": 2.8152405800065026,
+  "total_s": 8.77615071600303,
+  "error": null,
+  "char_count": 53
+}

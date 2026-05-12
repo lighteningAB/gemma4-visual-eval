@@ -1,0 +1,10 @@
+{
+  "id": "02_health_potion",
+  "target": "a small health potion flask",
+  "format": "braille",
+  "model_id": "google/gemma-4-E4B-it",
+  "ttft_s": 1.1795045059989206,
+  "total_s": 5.7801759269787,
+  "error": null,
+  "char_count": 24
+}

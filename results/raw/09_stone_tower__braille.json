@@ -1,0 +1,10 @@
+{
+  "id": "09_stone_tower",
+  "target": "a stone tower on a hill",
+  "format": "braille",
+  "model_id": "google/gemma-4-E4B-it",
+  "ttft_s": 0.6831711679697037,
+  "total_s": 3.8599167519714683,
+  "error": null,
+  "char_count": 20
+}

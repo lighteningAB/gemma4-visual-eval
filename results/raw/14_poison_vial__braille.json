@@ -1,0 +1,10 @@
+{
+  "id": "14_poison_vial",
+  "target": "a green poison vial",
+  "format": "braille",
+  "model_id": "google/gemma-4-E4B-it",
+  "ttft_s": 1.0525979300145991,
+  "total_s": 5.178873860975727,
+  "error": null,
+  "char_count": 24
+}

@@ -1,0 +1,10 @@
+{
+  "id": "10_dragon_head",
+  "target": "a red dragon head",
+  "format": "svg",
+  "model_id": "google/gemma-4-E4B-it",
+  "ttft_s": 0.28454688302008435,
+  "total_s": 16.600321378035005,
+  "error": null,
+  "char_count": 320
+}

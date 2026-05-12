@@ -1,0 +1,10 @@
+{
+  "id": "03_locked_door",
+  "target": "a locked wooden door",
+  "format": "ascii",
+  "model_id": "google/gemma-4-E4B-it",
+  "ttft_s": 0.10699930804548785,
+  "total_s": 2.2731590610346757,
+  "error": null,
+  "char_count": 56
+}

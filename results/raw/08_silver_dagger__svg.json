@@ -1,0 +1,10 @@
+{
+  "id": "08_silver_dagger",
+  "target": "a silver dagger",
+  "format": "svg",
+  "model_id": "google/gemma-4-E4B-it",
+  "ttft_s": 0.27488892199471593,
+  "total_s": 6.758116664015688,
+  "error": null,
+  "char_count": 151
+}

@@ -1,0 +1,10 @@
+{
+  "id": "15_campfire",
+  "target": "a campfire under a starry sky",
+  "format": "ascii",
+  "model_id": "google/gemma-4-E4B-it",
+  "ttft_s": 0.10329366498626769,
+  "total_s": 3.991475514951162,
+  "error": null,
+  "char_count": 95
+}
