@@ -1,0 +1,10 @@
+{
+  "id": "01_rusty_sword",
+  "target": "a rusty iron sword",
+  "format": "ascii",
+  "model_id": "google/gemma-4-E4B-it",
+  "ttft_s": 0.08826500602299348,
+  "total_s": 2.2752013319986872,
+  "error": null,
+  "char_count": 50
+}

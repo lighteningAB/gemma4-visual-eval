@@ -1,0 +1,10 @@
+{
+  "id": "12_arrow_quiver",
+  "target": "a leather quiver full of arrows",
+  "format": "braille",
+  "model_id": "google/gemma-4-E4B-it",
+  "ttft_s": 2.6393694180296734,
+  "total_s": 9.663091588998213,
+  "error": null,
+  "char_count": 51
+}

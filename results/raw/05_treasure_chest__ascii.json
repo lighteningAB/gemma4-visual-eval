@@ -1,0 +1,10 @@
+{
+  "id": "05_treasure_chest",
+  "target": "a treasure chest with gold coins",
+  "format": "ascii",
+  "model_id": "google/gemma-4-E4B-it",
+  "ttft_s": 0.1056392440223135,
+  "total_s": 3.340844410005957,
+  "error": null,
+  "char_count": 88
+}

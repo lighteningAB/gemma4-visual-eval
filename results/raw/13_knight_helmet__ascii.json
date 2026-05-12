@@ -1,0 +1,10 @@
+{
+  "id": "13_knight_helmet",
+  "target": "a knight's helmet",
+  "format": "ascii",
+  "model_id": "google/gemma-4-E4B-it",
+  "ttft_s": 0.10552875802386552,
+  "total_s": 1.8130873740301467,
+  "error": null,
+  "char_count": 34
+}

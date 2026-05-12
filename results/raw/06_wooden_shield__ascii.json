@@ -1,0 +1,10 @@
+{
+  "id": "06_wooden_shield",
+  "target": "a wooden shield with iron rim",
+  "format": "ascii",
+  "model_id": "google/gemma-4-E4B-it",
+  "ttft_s": 0.10110712895402685,
+  "total_s": 1.9239319560001604,
+  "error": null,
+  "char_count": 53
+}

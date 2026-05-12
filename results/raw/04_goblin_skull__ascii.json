@@ -1,0 +1,10 @@
+{
+  "id": "04_goblin_skull",
+  "target": "a goblin skull",
+  "format": "ascii",
+  "model_id": "google/gemma-4-E4B-it",
+  "ttft_s": 0.11925007897661999,
+  "total_s": 1.8840243250015192,
+  "error": null,
+  "char_count": 37
+}

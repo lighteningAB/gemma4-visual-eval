@@ -1,0 +1,10 @@
+{
+  "id": "07_magic_scroll",
+  "target": "a glowing magic scroll",
+  "format": "braille",
+  "model_id": "google/gemma-4-E4B-it",
+  "ttft_s": 2.8248697759700008,
+  "total_s": 8.604772115999367,
+  "error": null,
+  "char_count": 85
+}

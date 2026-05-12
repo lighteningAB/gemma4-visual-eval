@@ -1,0 +1,10 @@
+{
+  "id": "11_wizard_staff",
+  "target": "a wizard's staff with a crystal tip",
+  "format": "ascii",
+  "model_id": "google/gemma-4-E4B-it",
+  "ttft_s": 0.1182326739653945,
+  "total_s": 3.8285200569662265,
+  "error": null,
+  "char_count": 95
+}
