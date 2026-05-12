@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Note: results/raw/ and index.html ARE committed so the laptop can view them.
